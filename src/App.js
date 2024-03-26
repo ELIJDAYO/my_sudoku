@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './styles/tailwind.css'; // Import Tailwind CSS
+import Game from "./utils/Game"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-200">
+      <div className="bg-white p-4 rounded-lg shadow-md">
+        <h1 className="text-3xl font-bold mb-4">Sudoku Puzzle</h1>
+        <Game/> 
+      </div>
     </div>
   );
-}
+};
 
 export default App;
