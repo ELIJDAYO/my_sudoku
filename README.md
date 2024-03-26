@@ -24,7 +24,7 @@ You can watch a demo of the application in action by clicking [here](https://dri
 3. Navigate to the project directory:
 
    ```bash
-   cd sudoku-app
+   cd my_sudoku
 
 4. Install dependencies using Yarn:
    ```bash
