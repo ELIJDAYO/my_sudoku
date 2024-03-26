@@ -2,6 +2,10 @@
 
 This is a Sudoku application built with React.
 
+## Video Demo
+
+You can watch a demo of the application in action by clicking [here](https://drive.google.com/file/d/1eA6ho9RADCZJoUJbu38pyMrMTCEGAsxR/view?usp=sharing).
+
 ## Navigate
 
 - [Installation](#installation)
